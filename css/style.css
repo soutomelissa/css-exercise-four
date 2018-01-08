@@ -2,3 +2,64 @@ body {
   background-color: #dadada;
   font-size: 10px;
 }
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body.baku {
+  background-color: #dadada;
+  display: inline-block;
+  font-size: 10px;
+}
+
+.rome {
+  background: url(../images/rome.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.madrid {
+  background: url(../images/madrid.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.london {
+  background: url(../images/london.png) no-repeat top center;
+  background-size: cover;
+}
+
+.baku {
+  background: url(../images/baku.jpg) no-repeat top center;
+  background-size: cover;
+}
+
+.preview {
+  background-color: #dadada;
+  float: left;
+  margin: 1% 0;
+  width: 90%;
+  height: 250px;
+}
+
+.container {
+  margin: 0px auto;
+  width: 100%;
+}
+
+@media screen and (min-width: 575px) {
+  .preview {
+    margin: 1%;
+    width: 48%;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .preview {
+    margin: 1%;
+    width: 23%;
+  }
+}
+
+h1 {
+  color: white;
+}
